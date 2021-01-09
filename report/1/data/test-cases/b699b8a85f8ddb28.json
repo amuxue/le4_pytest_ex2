@@ -1,0 +1,146 @@
+{
+  "uid" : "b699b8a85f8ddb28",
+  "name" : "test_multipy[3-2-1]",
+  "fullName" : "case.test_calculator.TestCaculator#test_multipy",
+  "historyId" : "9f3ed895b5be6d912ca9cf45e7c2a22c",
+  "time" : {
+    "start" : 1610181016631,
+    "stop" : 1610181016631,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 6 == 1\n +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(3, 2)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\n +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>.cal",
+  "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>, a = 3, b = 2, exc_data = 1\n\n    @allure.story(\"测试计算类的乘法\")\n    @pytest.mark.run(order=3)\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[2])\n    def test_multipy(self,a,b,exc_data):\n        print(\"乘法\")\n>       assert self.cal.multipy(a, b) == exc_data\nE       assert 6 == 1\nE        +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(3, 2)\nE        +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\nE        +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>.cal\n\ncase/test_calculator.py:26: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator",
+    "time" : {
+      "start" : 1610181016574,
+      "stop" : 1610181016574,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 6 == 1\n +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(3, 2)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\n +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>.cal",
+    "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>, a = 3, b = 2, exc_data = 1\n\n    @allure.story(\"测试计算类的乘法\")\n    @pytest.mark.run(order=3)\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[2])\n    def test_multipy(self,a,b,exc_data):\n        print(\"乘法\")\n>       assert self.cal.multipy(a, b) == exc_data\nE       assert 6 == 1\nE        +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(3, 2)\nE        +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\nE        +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>.cal\n\ncase/test_calculator.py:26: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "dc59089b0dd0c9aa",
+      "name" : "stdout",
+      "source" : "dc59089b0dd0c9aa.txt",
+      "type" : "text/plain",
+      "size" : 7
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator::0",
+    "time" : {
+      "start" : 1610181016668,
+      "stop" : 1610181016668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "测试计算类的乘法"
+  }, {
+    "name" : "feature",
+    "value" : "测试计算类"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "alice-xiaodeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2522-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "3"
+  }, {
+    "name" : "b",
+    "value" : "2"
+  }, {
+    "name" : "exc_data",
+    "value" : "1"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "786aae351f1270a2",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 1\n +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7f8830a9f460>>(3, 2)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7f8830a9f460>> = <src.caculator.caculator object at 0x7f8830a9f460>.multipy\n +      where <src.caculator.caculator object at 0x7f8830a9f460> = <case.test_calculator.TestCaculator object at 0x7f881020a220>.cal",
+      "time" : {
+        "start" : 1610180854717,
+        "stop" : 1610180854717,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dabb303b6a892e09",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 1\n +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fafc8d0ffa0>>(3, 2)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fafc8d0ffa0>> = <src.caculator.caculator object at 0x7fafc8d0ffa0>.multipy\n +      where <src.caculator.caculator object at 0x7fafc8d0ffa0> = <case.test_calculator.TestCaculator object at 0x7fafa80134f0>.cal",
+      "time" : {
+        "start" : 1610180704429,
+        "stop" : 1610180704429,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "b699b8a85f8ddb28.json",
+  "parameterValues" : [ "3", "2", "1" ]
+}

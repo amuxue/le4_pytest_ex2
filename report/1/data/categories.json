@@ -1,0 +1,252 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '' == 'param cant null'\n  - param cant null",
+      "children" : [ {
+        "name" : "test_add[--param cant null]",
+        "uid" : "19730f20dbd0731e",
+        "parentUid" : "a8ab1ee330a62c63455083eb56e8b396",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610181016582,
+          "stop" : 1610181016583,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "'param cant null'" ]
+      }, {
+        "name" : "test_multipy[-1-param cant null]",
+        "uid" : "5fdce7e077c728b4",
+        "parentUid" : "a8ab1ee330a62c63455083eb56e8b396",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610181016643,
+          "stop" : 1610181016644,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "1", "'param cant null'" ]
+      } ],
+      "uid" : "a8ab1ee330a62c63455083eb56e8b396"
+    }, {
+      "name" : "AssertionError: assert 'NoneNone' == 'param cant None'\n  - param cant None\n  + NoneNone",
+      "children" : [ {
+        "name" : "test_add[None-None-param cant None]",
+        "uid" : "53dfc4d425036cfa",
+        "parentUid" : "902ce6acf4ebb2c9cee0b0e918e154b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610181016610,
+          "stop" : 1610181016610,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "'None'", "'param cant None'" ]
+      } ],
+      "uid" : "902ce6acf4ebb2c9cee0b0e918e154b2"
+    }, {
+      "name" : "AssertionError: assert 6 == 1\n +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(3, 2)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\n +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>.cal",
+      "children" : [ {
+        "name" : "test_multipy[3-2-1]",
+        "uid" : "b699b8a85f8ddb28",
+        "parentUid" : "0e8a34ce8e3166c728fd31fd4e30223b",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610181016631,
+          "stop" : 1610181016631,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "3", "2", "1" ]
+      } ],
+      "uid" : "0e8a34ce8e3166c728fd31fd4e30223b"
+    }, {
+      "name" : "AssertionError: assert 2 == -2\n +  where 2 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(-2, -1)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\n +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe8500fab50>.cal",
+      "children" : [ {
+        "name" : "test_multipy[-2--1--2]",
+        "uid" : "9e301285d5848b38",
+        "parentUid" : "d985056188ac0ea33474b8c8571c7736",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610181016634,
+          "stop" : 1610181016634,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "-2", "-1", "-2" ]
+      } ],
+      "uid" : "d985056188ac0ea33474b8c8571c7736"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "TypeError: can only concatenate str (not \"int\") to str",
+      "children" : [ {
+        "name" : "test_add[-1-param cant null]",
+        "uid" : "89efc5de740bf76c",
+        "parentUid" : "e055865276aa8c01ebf150c81e5da6eb",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016603,
+          "stop" : 1610181016603,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "1", "'param cant null'" ]
+      } ],
+      "uid" : "e055865276aa8c01ebf150c81e5da6eb"
+    }, {
+      "name" : "TypeError: unsupported operand type(s) for -: 'str' and 'str'",
+      "children" : [ {
+        "name" : "test_minus[--param cant null]",
+        "uid" : "14dec2e5b2a993e3",
+        "parentUid" : "6608f25a6ae68d582050cd4f14088023",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016620,
+          "stop" : 1610181016620,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "'param cant null'" ]
+      }, {
+        "name" : "test_minus[None-None-param cant None]",
+        "uid" : "aac24c82a42c63bb",
+        "parentUid" : "6608f25a6ae68d582050cd4f14088023",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016627,
+          "stop" : 1610181016627,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "'None'", "'param cant None'" ]
+      } ],
+      "uid" : "6608f25a6ae68d582050cd4f14088023"
+    }, {
+      "name" : "TypeError: unsupported operand type(s) for -: 'str' and 'int'",
+      "children" : [ {
+        "name" : "test_minus[-1-param cant null]",
+        "uid" : "9c21d61d6781d67b",
+        "parentUid" : "e3e7e27d43f2692fdc974581645acdc6",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016623,
+          "stop" : 1610181016623,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "1", "'param cant null'" ]
+      } ],
+      "uid" : "e3e7e27d43f2692fdc974581645acdc6"
+    }, {
+      "name" : "TypeError: can't multiply sequence by non-int of type 'str'",
+      "children" : [ {
+        "name" : "test_multipy[--param cant null]",
+        "uid" : "1f59b4765da31bd9",
+        "parentUid" : "a40d6613a80d6992e7292acfbf4d98ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016640,
+          "stop" : 1610181016640,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "'param cant null'" ]
+      }, {
+        "name" : "test_multipy[None-None-param cant None]",
+        "uid" : "d9096d5960d5878a",
+        "parentUid" : "a40d6613a80d6992e7292acfbf4d98ea",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016647,
+          "stop" : 1610181016647,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "'None'", "'param cant None'" ]
+      } ],
+      "uid" : "a40d6613a80d6992e7292acfbf4d98ea"
+    }, {
+      "name" : "ZeroDivisionError: division by zero",
+      "children" : [ {
+        "name" : "test_devide[0-0-devide not 0]",
+        "uid" : "aceef4268f2dfea9",
+        "parentUid" : "23d45e2b95d72e21c04056363d6f717f",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016655,
+          "stop" : 1610181016655,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "0", "0", "'devide not 0'" ]
+      } ],
+      "uid" : "23d45e2b95d72e21c04056363d6f717f"
+    }, {
+      "name" : "TypeError: unsupported operand type(s) for /: 'str' and 'str'",
+      "children" : [ {
+        "name" : "test_devide[--param cant null]",
+        "uid" : "5c031cd5a10de3b4",
+        "parentUid" : "4837767356304eb74935046ee47beada",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016659,
+          "stop" : 1610181016659,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "''", "'param cant null'" ]
+      }, {
+        "name" : "test_devide[None-None-param cant None]",
+        "uid" : "706639b9dad144b4",
+        "parentUid" : "4837767356304eb74935046ee47beada",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016666,
+          "stop" : 1610181016666,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'None'", "'None'", "'param cant None'" ]
+      } ],
+      "uid" : "4837767356304eb74935046ee47beada"
+    }, {
+      "name" : "TypeError: unsupported operand type(s) for /: 'str' and 'int'",
+      "children" : [ {
+        "name" : "test_devide[-1-param cant null]",
+        "uid" : "64da21731d69b7be",
+        "parentUid" : "a5f941e67cc408d9558fc6422fe46afd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1610181016662,
+          "stop" : 1610181016662,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "''", "1", "'param cant null'" ]
+      } ],
+      "uid" : "a5f941e67cc408d9558fc6422fe46afd"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

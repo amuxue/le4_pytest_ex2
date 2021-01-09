@@ -1,0 +1,549 @@
+{
+  "823f5ba0884ca4481e459b16e3cea373" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "64da21731d69b7be",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for /: 'str' and 'int'",
+      "time" : {
+        "start" : 1610181016662,
+        "stop" : 1610181016662,
+        "duration" : 0
+      }
+    } ]
+  },
+  "719c732649eef5bf23860286d7187c27" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4f07f3bb64192dbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016615,
+        "stop" : 1610181016615,
+        "duration" : 0
+      }
+    } ]
+  },
+  "1b29f92077edae92066d3786251c4cf8" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5fdce7e077c728b4",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '' == 'param cant null'\n  - param cant null",
+      "time" : {
+        "start" : 1610181016643,
+        "stop" : 1610181016644,
+        "duration" : 1
+      }
+    } ]
+  },
+  "4ca03b9ec62003c503a46c1a40f7dfc8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "323c1babed3b3d2e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016654,
+        "stop" : 1610181016654,
+        "duration" : 0
+      }
+    } ]
+  },
+  "b168fc64be2229770372a340b6fbf1dc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c93d549f512608e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016650,
+        "stop" : 1610181016650,
+        "duration" : 0
+      }
+    } ]
+  },
+  "d2a5fa868792398cf2fec8464065ff03" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bede9f11e78d405",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016576,
+        "stop" : 1610181016577,
+        "duration" : 1
+      }
+    } ]
+  },
+  "89b88e52b7b477f05326c50aca73ea56" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "761194765bdd0b31",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016617,
+        "stop" : 1610181016617,
+        "duration" : 0
+      }
+    } ]
+  },
+  "dc3174a1d762072a7bd975dd98fee438" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aceef4268f2dfea9",
+      "status" : "broken",
+      "statusDetails" : "ZeroDivisionError: division by zero",
+      "time" : {
+        "start" : 1610181016655,
+        "stop" : 1610181016655,
+        "duration" : 0
+      }
+    } ]
+  },
+  "e412fc788705f6451e42d997c11b2420" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c82052d30f0b8ad2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016652,
+        "stop" : 1610181016652,
+        "duration" : 0
+      }
+    } ]
+  },
+  "785f13fbf86940b7a33119aac1fecbe4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "24411f782443d7c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016637,
+        "stop" : 1610181016637,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2470f712fa017db219a886ba68714a9b" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "53dfc4d425036cfa",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'NoneNone' == 'param cant None'\n  - param cant None\n  + NoneNone",
+      "time" : {
+        "start" : 1610181016610,
+        "stop" : 1610181016610,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2a79ea11df713d4820ee9fa7e2698fe4" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3f74c90d8108d3c9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016613,
+        "stop" : 1610181016613,
+        "duration" : 0
+      }
+    } ]
+  },
+  "43d6467e687e5a1f21a206092a5c78ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9c21d61d6781d67b",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for -: 'str' and 'int'",
+      "time" : {
+        "start" : 1610181016623,
+        "stop" : 1610181016623,
+        "duration" : 0
+      }
+    } ]
+  },
+  "06295f9fcac0ea0c9440c673b209ea20" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9e301285d5848b38",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 2 == -2\n +  where 2 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(-2, -1)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\n +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe8500fab50>.cal",
+      "time" : {
+        "start" : 1610181016634,
+        "stop" : 1610181016634,
+        "duration" : 0
+      }
+    } ]
+  },
+  "9f3ed895b5be6d912ca9cf45e7c2a22c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b699b8a85f8ddb28",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 6 == 1\n +  where 6 = <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>>(3, 2)\n +    where <bound method caculator.multipy of <src.caculator.caculator object at 0x7fe860c3c670>> = <src.caculator.caculator object at 0x7fe860c3c670>.multipy\n +      where <src.caculator.caculator object at 0x7fe860c3c670> = <case.test_calculator.TestCaculator object at 0x7fe860c329a0>.cal",
+      "time" : {
+        "start" : 1610181016631,
+        "stop" : 1610181016631,
+        "duration" : 0
+      }
+    } ]
+  },
+  "077b38f1d11f870e818502863ee9f873" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14dec2e5b2a993e3",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for -: 'str' and 'str'",
+      "time" : {
+        "start" : 1610181016620,
+        "stop" : 1610181016620,
+        "duration" : 0
+      }
+    } ]
+  },
+  "41ca09493ae2fc8f89111a18960121fc" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2e8e305b82b0266e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016638,
+        "stop" : 1610181016639,
+        "duration" : 1
+      }
+    } ]
+  },
+  "a82e43a234c400315fc8f58cd8a0a2ed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dc7830a13de425e7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016618,
+        "stop" : 1610181016618,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a545a5932db8d8f81a5de869c532d4ea" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d74f1bb0f074a491",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016574,
+        "stop" : 1610181016575,
+        "duration" : 1
+      }
+    } ]
+  },
+  "eabe88db43909e4536e332d6e87f2ba8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "706639b9dad144b4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for /: 'str' and 'str'",
+      "time" : {
+        "start" : 1610181016666,
+        "stop" : 1610181016666,
+        "duration" : 0
+      }
+    } ]
+  },
+  "2e64695a22156e5991453bbb52579a04" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1f59b4765da31bd9",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can't multiply sequence by non-int of type 'str'",
+      "time" : {
+        "start" : 1610181016640,
+        "stop" : 1610181016640,
+        "duration" : 0
+      }
+    } ]
+  },
+  "14f56854cb6e97b74671221a136314c7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d9096d5960d5878a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can't multiply sequence by non-int of type 'str'",
+      "time" : {
+        "start" : 1610181016647,
+        "stop" : 1610181016647,
+        "duration" : 0
+      }
+    } ]
+  },
+  "379034767a89102289af1adabe030e2d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "160f94c5d678ee39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016580,
+        "stop" : 1610181016580,
+        "duration" : 0
+      }
+    } ]
+  },
+  "a0de0a5b4a353c31c474e64aa1cfe6a2" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cc57bb1e7a5148e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610181016578,
+        "stop" : 1610181016579,
+        "duration" : 1
+      }
+    } ]
+  },
+  "124841472628b45bb9f1129c6cf074c8" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aac24c82a42c63bb",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for -: 'str' and 'str'",
+      "time" : {
+        "start" : 1610181016627,
+        "stop" : 1610181016627,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7b3f9c38c998b7c866de688275c0f06c" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "19730f20dbd0731e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert '' == 'param cant null'\n  - param cant null",
+      "time" : {
+        "start" : 1610181016582,
+        "stop" : 1610181016583,
+        "duration" : 1
+      }
+    } ]
+  },
+  "f7fc9c60f69014f3c6ed8096d1c7b9a7" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5c031cd5a10de3b4",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unsupported operand type(s) for /: 'str' and 'str'",
+      "time" : {
+        "start" : 1610181016659,
+        "stop" : 1610181016659,
+        "duration" : 0
+      }
+    } ]
+  },
+  "5206c96c90098e9ffbd5cb7f3cbdac1a" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "89efc5de740bf76c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"int\") to str",
+      "time" : {
+        "start" : 1610181016603,
+        "stop" : 1610181016603,
+        "duration" : 0
+      }
+    } ]
+  }
+}

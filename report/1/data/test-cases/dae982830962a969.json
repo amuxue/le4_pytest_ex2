@@ -1,0 +1,119 @@
+{
+  "uid" : "dae982830962a969",
+  "name" : "test_multipy[-1-param cant null]",
+  "fullName" : "case.test_calculator.TestCaculator#test_multipy",
+  "historyId" : "1b29f92077edae92066d3786251c4cf8",
+  "time" : {
+    "start" : 1610180854731,
+    "stop" : 1610180854731,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '' == 'param cant null'\n  - param cant null",
+  "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7f8830ae3820>, a = '', b = 1, exc_data = 'param cant null'\n\n    @pytest.mark.run(order=3)\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[2])\n    def test_multipy(self,a,b,exc_data):\n        print(\"乘法\")\n>       assert self.cal.multipy(a, b) == exc_data\nE       AssertionError: assert '' == 'param cant null'\nE         - param cant null\n\ncase/test_calculator.py:25: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator",
+    "time" : {
+      "start" : 1610180854659,
+      "stop" : 1610180854660,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '' == 'param cant null'\n  - param cant null",
+    "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7f8830ae3820>, a = '', b = 1, exc_data = 'param cant null'\n\n    @pytest.mark.run(order=3)\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[2])\n    def test_multipy(self,a,b,exc_data):\n        print(\"乘法\")\n>       assert self.cal.multipy(a, b) == exc_data\nE       AssertionError: assert '' == 'param cant null'\nE         - param cant null\n\ncase/test_calculator.py:25: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "c4bdf42922e1ab25",
+      "name" : "stdout",
+      "source" : "c4bdf42922e1ab25.txt",
+      "type" : "text/plain",
+      "size" : 7
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator::0",
+    "time" : {
+      "start" : 1610180854753,
+      "stop" : 1610180854753,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算类"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=3)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "alice-xiaodeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2460-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "''"
+  }, {
+    "name" : "b",
+    "value" : "1"
+  }, {
+    "name" : "exc_data",
+    "value" : "'param cant null'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=3)" ]
+  },
+  "source" : "dae982830962a969.json",
+  "parameterValues" : [ "''", "1", "'param cant null'" ]
+}

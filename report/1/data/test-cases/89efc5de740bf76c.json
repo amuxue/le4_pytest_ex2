@@ -1,0 +1,179 @@
+{
+  "uid" : "89efc5de740bf76c",
+  "name" : "test_add[-1-param cant null]",
+  "fullName" : "case.test_calculator.TestCaculator#test_add",
+  "historyId" : "5206c96c90098e9ffbd5cb7f3cbdac1a",
+  "time" : {
+    "start" : 1610181016603,
+    "stop" : 1610181016603,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "statusMessage" : "TypeError: can only concatenate str (not \"int\") to str",
+  "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7fe850101730>, a = '', b = 1, exc_data = 'param cant null'\n\n    @allure.story(\"测试计算类的加法\")\n    @pytest.mark.run(order=1)\n    @pytest.mark.usefixtures(\"cal_begin_end\")\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[0])\n    def test_add(self,a,b,exc_data):\n        print(\"加法\")\n>       assert self.cal.add(a,b)==exc_data\n\ncase/test_calculator.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <src.caculator.caculator object at 0x7fe860c3c670>, a = '', b = 1\n\n    def add(self,a,b):\n        '''加法'''\n>       return a+b\nE       TypeError: can only concatenate str (not \"int\") to str\n\nsrc/caculator.py:4: TypeError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator",
+    "time" : {
+      "start" : 1610181016574,
+      "stop" : 1610181016574,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cal_begin_end",
+    "time" : {
+      "start" : 1610181016574,
+      "stop" : 1610181016574,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "TypeError: can only concatenate str (not \"int\") to str",
+    "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7fe850101730>, a = '', b = 1, exc_data = 'param cant null'\n\n    @allure.story(\"测试计算类的加法\")\n    @pytest.mark.run(order=1)\n    @pytest.mark.usefixtures(\"cal_begin_end\")\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[0])\n    def test_add(self,a,b,exc_data):\n        print(\"加法\")\n>       assert self.cal.add(a,b)==exc_data\n\ncase/test_calculator.py:41: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\nself = <src.caculator.caculator object at 0x7fe860c3c670>, a = '', b = 1\n\n    def add(self,a,b):\n        '''加法'''\n>       return a+b\nE       TypeError: can only concatenate str (not \"int\") to str\n\nsrc/caculator.py:4: TypeError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "954b5754e24e23ef",
+      "name" : "stdout",
+      "source" : "954b5754e24e23ef.txt",
+      "type" : "text/plain",
+      "size" : 7
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator::0",
+    "time" : {
+      "start" : 1610181016668,
+      "stop" : 1610181016668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cal_begin_end::0",
+    "time" : {
+      "start" : 1610181016668,
+      "stop" : 1610181016668,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "测试计算类"
+  }, {
+    "name" : "story",
+    "value" : "测试计算类的加法"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('cal_begin_end')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "alice-xiaodeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2522-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "''"
+  }, {
+    "name" : "b",
+    "value" : "1"
+  }, {
+    "name" : "exc_data",
+    "value" : "'param cant null'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "57a5e7b67f55648a",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"int\") to str",
+      "time" : {
+        "start" : 1610180854690,
+        "stop" : 1610180854690,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "b8e1aa4fb1dc3a56",
+      "status" : "broken",
+      "statusDetails" : "TypeError: can only concatenate str (not \"int\") to str",
+      "time" : {
+        "start" : 1610180704403,
+        "stop" : 1610180704403,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('cal_begin_end')" ]
+  },
+  "source" : "89efc5de740bf76c.json",
+  "parameterValues" : [ "''", "1", "'param cant null'" ]
+}

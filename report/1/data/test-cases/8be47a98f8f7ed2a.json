@@ -1,0 +1,149 @@
+{
+  "uid" : "8be47a98f8f7ed2a",
+  "name" : "test_add[None-None-param cant None]",
+  "fullName" : "case.test_calculator.TestCaculator#test_add",
+  "historyId" : "2470f712fa017db219a886ba68714a9b",
+  "time" : {
+    "start" : 1610180704409,
+    "stop" : 1610180704409,
+    "duration" : 0
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'NoneNone' == 'param cant None'\n  - param cant None\n  + NoneNone",
+  "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7fafb8086b80>, a = 'None', b = 'None', exc_data = 'param cant None'\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.usefixtures(\"cal_begin_end\")\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[0])\n    def test_add(self,a,b,exc_data):\n        print(\"加法\")\n>       assert self.cal.add(a,b)==exc_data\nE       AssertionError: assert 'NoneNone' == 'param cant None'\nE         - param cant None\nE         + NoneNone\n\ncase/test_calculator.py:37: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator",
+    "time" : {
+      "start" : 1610180704374,
+      "stop" : 1610180704374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cal_begin_end",
+    "time" : {
+      "start" : 1610180704374,
+      "stop" : 1610180704374,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 'NoneNone' == 'param cant None'\n  - param cant None\n  + NoneNone",
+    "statusTrace" : "self = <case.test_calculator.TestCaculator object at 0x7fafb8086b80>, a = 'None', b = 'None', exc_data = 'param cant None'\n\n    @pytest.mark.run(order=1)\n    @pytest.mark.usefixtures(\"cal_begin_end\")\n    @pytest.mark.parametrize('a,b,exc_data',get_case_data()[0])\n    def test_add(self,a,b,exc_data):\n        print(\"加法\")\n>       assert self.cal.add(a,b)==exc_data\nE       AssertionError: assert 'NoneNone' == 'param cant None'\nE         - param cant None\nE         + NoneNone\n\ncase/test_calculator.py:37: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6ce4132cf0da662f",
+      "name" : "stdout",
+      "source" : "6ce4132cf0da662f.txt",
+      "type" : "text/plain",
+      "size" : 7
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestCaculator::0",
+    "time" : {
+      "start" : 1610180704465,
+      "stop" : 1610180704465,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  }, {
+    "name" : "cal_begin_end::0",
+    "time" : {
+      "start" : 1610180704466,
+      "stop" : 1610180704466,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('cal_begin_end')"
+  }, {
+    "name" : "tag",
+    "value" : "run(order=1)"
+  }, {
+    "name" : "parentSuite",
+    "value" : "case"
+  }, {
+    "name" : "suite",
+    "value" : "test_calculator"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestCaculator"
+  }, {
+    "name" : "host",
+    "value" : "alice-xiaodeMacBook-Pro.local"
+  }, {
+    "name" : "thread",
+    "value" : "2408-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "case.test_calculator"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "a",
+    "value" : "'None'"
+  }, {
+    "name" : "b",
+    "value" : "'None'"
+  }, {
+    "name" : "exc_data",
+    "value" : "'param cant None'"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "run(order=1)", "@pytest.mark.usefixtures('cal_begin_end')" ]
+  },
+  "source" : "8be47a98f8f7ed2a.json",
+  "parameterValues" : [ "'None'", "'None'", "'param cant None'" ]
+}
